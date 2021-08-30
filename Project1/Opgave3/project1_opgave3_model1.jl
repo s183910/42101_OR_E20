@@ -49,3 +49,6 @@ println("Objective value: ", JuMP.objective_value(model1))
 for a in arcs
     println("Flow on arc (", a.from,",",a.to,") is ", JuMP.value.(x[a]))
 end
+
+
+# Her er der en kommentar for tester
